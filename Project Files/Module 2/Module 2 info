@@ -1,0 +1,24 @@
+This project for module 2 introduces the use of flow charts to graphically explan a system. Flowcharts are commonly used to represent programs, algorithms, or any ordered process in various disciplines. flowcharts and data flow diagrams are used to graphically describe the solution to a problem.
+
+Flowcharts and data flow diagrams can be hand drawn or created using a number of software applications including Microsoft Word, Visio, LibreOffice, GoogleDOCS, and various web applications such as https://www.draw.io/.
+
+Most common flow chart symbols
+![alt text](image.png)
+
+The flow chart must have these steps.
+a.	Run a basic python program
+b.	Download weather data to a database.
+c.	Query the weather data 
+d.	Extract weather data from database into a comma separated file with python
+e.	Cleanse weather data
+f.	Use python data analytics modules to develop graphical models
+
+
+
+The code will be written in the IDE replit.
+
+The requirements for this code will be:
+  1.	Ask the user to input their name, city, and the current temperature.
+  2.  If the temperature is greater than 60 display a message “It is nice where you live”. (Please note, when asking the user for a number you need to convert the number to a different data type like integer or float ).
+  3. Review the code below and feel free to add additional lines of code to this program. 
+  4.  Run the program and enter in values for name, city, and temperature

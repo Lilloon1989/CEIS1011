@@ -7,6 +7,7 @@ import os
 
 # get list of files and put into list
 file_list = os.listdir()
+print(file_list)
 
 # create new list of just .py files (not including main.py)
 program_list = [f for f in file_list if (f.endswith(".py") and f != "main.py")]
