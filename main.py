@@ -10,7 +10,7 @@ file_list = os.listdir()
 
 # create new list of just .py files (not including main.py)
 program_list = [f for f in file_list if (f.endswith(".py") and f != "main.py")]
-
+print(file_list)
 # main menu (list of programs to run)
 keep_going = True
 while keep_going:
