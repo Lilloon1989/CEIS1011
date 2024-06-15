@@ -7,7 +7,7 @@ import os
 
 # get list of files and put into list
 file_list = os.listdir()
-print(file_list)
+
 
 # create new list of just .py files (not including main.py)
 program_list = [f for f in file_list if (f.endswith(".py") and f != "main.py")]
@@ -37,3 +37,4 @@ else:
   file_name = program_list[int(selection)-1]
   with open(file_name) as file:
     exec(file.read())
+
